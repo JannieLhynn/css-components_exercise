@@ -7,11 +7,43 @@ body {
   line-height: 1.6;
 }
 
-h1,
-h2,
+h1 {
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 30rem;
+  color:#c30052;
+  line-height: inherit;
+  margin-top:0px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: inherit;
+  font-size: 25px;
+  line-height: 2.5;
+  text-align: center;
+  color: #333;
+  padding: 0;
+  margin: 0;
+
+}
+
+h3 {
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin: auto;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 1px;
+}
+
 p {
   margin: 0;
   padding: 0;
+  font-size: 13px;
+  line-height: 1.3rem;
+  color: #fff;
 }
 
 .container {
@@ -24,12 +56,17 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  padding: 10px;
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  padding: 40px;
+  padding-left: 10px;
+  margin: 20px;
+  margin-top: 5px;
 }
 
 .box {
@@ -39,8 +76,21 @@ p {
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
 }
 
+#box1, #card-horizontal1, #card-horizontal4, #button1 {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+#box2, #card-horizontal3,#button2 {
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+#box3, #card-horizontal2,#button3{
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
 hr {
   border: 1px solid rgba(51, 51, 51, 0.062);
+  color: #767676;
 }
 
 button {
@@ -49,6 +99,15 @@ button {
   box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.444);
   cursor: pointer;
   display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  width:85px;
+}
+
+.button {
+  color: #fff;
 }
 
 .wrapper {
